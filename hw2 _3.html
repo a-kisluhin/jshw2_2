@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+   
+    
+</head>
+<body>
+  <p>3. Найти сумму чисел от 0 до 100 (включительно). (0+1+2+3+4+5).</p>
+
+<br>
+<br>
+
+ <script type="text/javascript">
+var x = Number(prompt("Введите число: "));
+var j = 0;
+if (x <= 0 ) {
+    alert("введите число большее нуля");
+    } else document.write(x);
+document.write("<br>");
+for (var i = 1; i <= x; i++) {
+document.write(i);
+if (i <= (x - 1)) document.write( " + " );
+j = j + i; 
+if (i == x) document.write( " = " + j);
+}
+document.write("<br>" + "Сумма чисел от 1 до "  + x + " равнa " + j);
+</script>
+     
+</body>
+</html>
+    
